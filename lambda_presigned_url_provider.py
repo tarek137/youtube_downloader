@@ -3,7 +3,6 @@ import json
 import boto3
 
 
-
 def lambda_handler(event, context):
 
     # Create S3 client and specify region and config
@@ -23,9 +22,9 @@ def lambda_handler(event, context):
                                               ExpiresIn=3600)
 
     # sending the presigned url
-
+    #Enter the arn of the topic you create to send the email
     response = sns.publish(
-        TargetArn= "arn:aws:sns:eu-west-3:500974137983:topic-video-url",
+        TargetArn= "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         Message=json.dumps(generated_url)
     )
 
