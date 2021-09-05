@@ -9,6 +9,6 @@ The second lambda function (lambda_presigned_url_provider) generates presigned u
 an email 
 
 
-![alt text](https://github.com/tarek137/youtube_downloader/blob/master/youtub_downloader_diagram.jpg?raw=true)
+![youtube_downloader_diagram](https://user-images.githubusercontent.com/70094057/132139420-c42b239d-8f66-464b-90f1-dd0226b97b85.JPG)
 
 
